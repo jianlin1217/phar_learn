@@ -9,7 +9,7 @@ $phar->startBuffering();
 foreach ($exts as $ext) {
 $phar->buildFromDirectory($dir, '/\.' . $ext . '$/');
 }
-$phar->delete('build.php');
+// $phar->delete('build.php');
 $phar->setStub($phar->createDefaultStub('index.php'));
 $phar->stopBuffering();
 echo phpinfo();
