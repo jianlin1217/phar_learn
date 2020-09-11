@@ -13,9 +13,13 @@ Stack trace:
 #1 {main}
   thrown in /Applications/MAMP/htdocs/phar_learn/demo.php on line 7
 
+->跑MAMP中的demo.php 就可以執行
+
 指定檔案的路徑
 buildFromDirectory( string $base_dir [, string $regex ])
 參考 https://www.php.net/manual/en/phar.buildfromdirectory.php
+
+
 
 
 
